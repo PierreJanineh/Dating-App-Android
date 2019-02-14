@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Dating App</string>
     <string name="log_token">Log Token</string>
 
     <string name="msg_subscribed">Subscribed to topic</string>
