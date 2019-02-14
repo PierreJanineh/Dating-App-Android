@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Design.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorControlHighlight">@color/links</item>
+        <item name="colorControlActivated">@color/links</item>
+        <item name="colorControlNormal">@color/links</item>
+        <item name="colorButtonNormal">@color/links</item>
+        <item name="android:fontFamily">@font/thasadith_regular</item>
+
+
+
+    </style>
+
+</resources>

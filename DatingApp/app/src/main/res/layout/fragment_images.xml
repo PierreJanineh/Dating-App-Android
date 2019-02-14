@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ImagesFragment"
+    android:id="@+id/imgContainer">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/imgView"
+        app:layout_constraintStart_toStartOf="@id/imgContainer"
+        app:layout_constraintEnd_toEndOf="@id/imgContainer"
+        android:text="Slider Num"
+        android:id="@+id/txtView"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="@id/imgContainer"
+        app:layout_constraintEnd_toEndOf="@id/imgContainer"
+        app:layout_constraintTop_toTopOf="@id/imgContainer"
+        app:layout_constraintBottom_toBottomOf="@id/imgContainer"
+        android:id="@+id/imgView"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">General</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to topic</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="continue_btn">continue</string>
+    <string name="login_with_google">Sign in with Google</string>
+    <string name="password">Password</string>
+    <string name="username_email">Username</string>
+    <string name="enter_a_username">Enter a username</string>
+    <string name="online">Online</string>
+    <string name="messages">Messages</string>
+    <string name="favourites">Favs</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="privacy">Privacy</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="on_messages">on messages</string>
+    <string name="on_profile_views">on profile views</string>
+    <string name="show_age">Show age</string>
+    <string name="connect_to_facebook">Connect to Facebook</string>
+    <string name="disconnect_facebook">Disconnect</string>
+    <string name="profile">Profile</string>
+    <string name="ntf">Notifications</string>
+    <string-array name="ethnicity">
+        <item>Prefer not to say</item>
+        <item>Middle Eastern</item>
+        <item>Native American</item>
+        <item>African American</item>
+        <item>European</item>
+        <item>Latino</item>
+        <item>Asian</item>
+    </string-array>
+
+    <string-array name="reference">
+        <item>Prefer not to say</item>
+        <item>He</item>
+        <item>She</item>
+        <item>He /She</item>
+        <item>They</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="religion">
+        <item>Prefer not to say</item>
+        <item>Christian</item>
+        <item>Muslim</item>
+        <item>Jew</item>
+        <item>Atheist</item>
+    </string-array>
+
+    <string-array name="relationship">
+        <item>Prefer not to say</item>
+        <item>In a relationship/ Single</item>
+        <item>In a relationship/ Couple</item>
+        <item>In an open relationship</item>
+        <item>Single</item>
+        <item>Divorced</item>
+        <item>Widowed</item>
+        <item>It\'s complicated</item>
+    </string-array>
+
+    <string-array name="orientation">
+        <item>Prefer not to say</item>
+        <item>Straight</item>
+        <item>Gay</item>
+        <item>Bisexual</item>
+        <item>Transexual</item>
+        <item>Transgender</item>
+        <item>Pansexual</item>
+    </string-array>
+
+    <string-array name="stds">
+        <item>Prefer not to say</item>
+        <item>HIV+</item>
+        <item>HIV-</item>
+    </string-array>
+
+    <string-array name="role">
+        <item>Prefer not to say</item>
+        <item>Top</item>
+        <item>Bottom</item>
+        <item>Vers</item>
+        <item>Vers/Top</item>
+        <item>Vers/Bottom</item>
+    </string-array>
+
+</resources>

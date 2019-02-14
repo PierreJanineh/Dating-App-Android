@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_margin="5dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="2dp"
+    android:id="@+id/cardView">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="2dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:id="@+id/parentLayout">
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/ic_online"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:padding="1.5dp"
+            android:id="@+id/imgOnline" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLength="10"
+            android:maxLines="2"
+            android:text="USERNAMEEEEEniodgf niorfm fnidoslkn fndkslnf vdsjnlk"
+            android:textSize="10sp"
+            app:layout_constraintTop_toTopOf="@id/imgOnline"
+            app:layout_constraintBottom_toBottomOf="@id/imgOnline"
+            app:layout_constraintStart_toEndOf="@id/imgOnline"
+            app:layout_constraintEnd_toStartOf="@id/txtDistance"
+            android:id="@+id/txtUser"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLength="5"
+            android:textSize="8sp"
+            android:paddingStart="2dp"
+            android:paddingEnd="1dp"
+            android:paddingBottom="1.5dp"
+            android:text="95Km"
+            app:layout_constraintBottom_toBottomOf="@id/imgOnline"
+            app:layout_constraintTop_toTopOf="@id/imgOnline"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/txtDistance"/>
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>
